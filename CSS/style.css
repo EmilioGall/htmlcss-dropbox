@@ -1,0 +1,24 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+
+    /* Debug */
+    /* background-color: lightcoral; */
+}
+
+/* COMMON */
+
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    /* Debug */
+    background-color: lightblue;
+}
