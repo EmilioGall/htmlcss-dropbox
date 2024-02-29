@@ -1,12 +1,18 @@
 /* RESET */
 :root {
-    /* --white-p: rgba(224, 224, 224, 1);
-    --dark-p: rgba(34, 34, 34, 1);
-    --grey-p: rgba(74, 74, 74, 1);
-    --red-p: rgba(255, 25, 48, 1);
-    --green-p: rgba(75, 200, 0, 1);
+    --lightcyan-p: rgba(180, 208, 231, 1);
+    --cyan-p: rgba(0, 97, 255, 1);
 
-    --height-h: 4rem; */
+    --lightblue-p: rgba(0, 147, 206, 1);
+    --blue-p: rgba(13, 36, 129, 1);
+    --lightgreen-p: rgba(209, 233, 205, 1);
+    --lightgrey-p: rgba(245, 245, 245, 1);
+    --lightred-p: rgba(255, 28, 28, 1);
+    --red-p: rgba(213, 0, 31, 1);
+    --bordeaux-p: rgba(97, 8, 43, 1);
+    --yellow-p: rgba(255, 216, 48, 1);
+
+    --height-h: 4rem;
 }
 
 * {
@@ -139,26 +145,71 @@ body {
 /* Colors */
 
 .txt-w {
-    color: var(--white-p);
+    color: rgba(255, 255, 255, 1);
 }
 
-.txt-r {
-    color: var(--red-p);
+.txt-br {
+    color: var(--bordeaux-p);
 }
 
-.txt-g {
-    color: var(--green-p);
+/* Background Colors */
+
+.bg-lc {
+    background-color: var(--lightcyan-p);
 }
 
-.bg-w {
-    background-color: var(--white-p);
+.bg-c {
+    background-color: var(--cyan-p);
 }
 
 .bg-g {
     background-color: var(--grey-p);
 }
 
-.bg-d {
-    background-color: var(--dark-p);
+
+.bg-lgr {
+    background-color: var(--lightgreen-p);
 }
 
+.bg-lbl {
+    background-color: var(--lightblue-p);
+}
+
+.bg-bl {
+    background-color: var(--blue-p);
+}
+
+.bg-br {
+    background-color: var(--bordeaux-p);
+}
+
+.bg-lr {
+    background-color: var(--lightred-p);
+}
+
+.bg-r {
+    background-color: var(--red-p);
+}
+
+.bg-y {
+    background-color: var(--yellow-p);
+}
+
+.bg-b {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+
+
+
+/* HEADER */
+
+header {
+
+}
+
+
+/* MAIN */
+
+
+/* FOOTER */
