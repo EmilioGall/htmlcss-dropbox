@@ -1,24 +1,164 @@
 /* RESET */
+:root {
+    /* --white-p: rgba(224, 224, 224, 1);
+    --dark-p: rgba(34, 34, 34, 1);
+    --grey-p: rgba(74, 74, 74, 1);
+    --red-p: rgba(255, 25, 48, 1);
+    --green-p: rgba(75, 200, 0, 1);
+
+    --height-h: 4rem; */
+}
+
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
+
 
 img {
     display: inline-block;
     max-width: 100%;
-
-    /* Debug */
-    /* background-color: lightcoral; */
 }
+
+li {
+    list-style: none;
+}
+
 
 /* COMMON */
 
 body {
-    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
     /* Debug */
     background-color: lightblue;
 }
+
+.container {
+    margin: 0px auto;
+    width: 92%;
+    min-width: 845px;
+}
+
+/* Flex-container */
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-end {
+    justify-content: end;
+}
+
+.al-center {
+    align-items: center;
+}
+
+/* Position */
+
+.rel {
+    position: relative;
+}
+
+/* Utilities */
+
+.a-clean {
+    color: inherit;
+    text-decoration: none;
+}
+
+.pad-g-10 {
+    padding: 10px;
+}
+
+.pad-g-5 {
+    padding: 5px;
+}
+
+.pad-v-20 {
+    padding: 20px 0px;
+}
+
+.pad-v-10 {
+    padding: 10px 0px;
+}
+
+.pad-h-10 {
+    padding: 0px 10px;
+}
+
+.marg-h-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.marg-v-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.marg-v-5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.marg-l-10 {
+    margin-left: 10px;
+}
+
+.marg-r-10 {
+    margin-right: 10px;
+}
+
+
+/* Typography */
+
+.txt-10 {
+    font-size: 0.8rem;
+}
+
+.txt-15 {
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
+.txt-20 {
+    font-size: 1.3rem;
+}
+
+
+/* Colors */
+
+.txt-w {
+    color: var(--white-p);
+}
+
+.txt-r {
+    color: var(--red-p);
+}
+
+.txt-g {
+    color: var(--green-p);
+}
+
+.bg-w {
+    background-color: var(--white-p);
+}
+
+.bg-g {
+    background-color: var(--grey-p);
+}
+
+.bg-d {
+    background-color: var(--dark-p);
+}
+
