@@ -29,6 +29,9 @@ img {
 ul {
     list-style-type: none;
 }
+menu {
+    list-style-type: none;
+}
 
 
 /* COMMON */
@@ -39,23 +42,23 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.txt-8 {
+.txt-0 {
     font-size: 0.8rem;
 }
 
-.txt-12 {
+.txt-h4 {
+    font-size: 1rem;
+}
+
+.txt-h3 {
     font-size: 1.2rem;
 }
 
-.txt-16 {
-    font-size: 1.6rem;
-}
-
-.txt-18 {
+.txt-h2 {
     font-size: 1.8rem;
 }
 
-.txt-20 {
+.txt-h1 {
     font-size: 2rem;
 }
 
@@ -155,11 +158,13 @@ body {
 .container {
     width: 60%;
     min-width: 845px;
+    max-width: 1000;
 }
 
 .l-container {
     width: 70%;
     min-width: 845px;
+    max-width: 1200;
 }
 
 .rel {
@@ -168,12 +173,6 @@ body {
 
 .col-20 {
     width: calc(100%/5);
-
-    /* Debug */
-    margin-bottom: 20px;
-    min-height: 300px;
-    background-color: grey;
-    border: 2px solid white;
 }
 
 .col-30 {
@@ -231,7 +230,15 @@ body {
 .p-l-15 {
     padding-left: 1.5em;
 }
-_________________________________________
+
+.pad-v-30 {
+    padding: 30px 0px;
+}
+
+.pad-v-60 {
+    padding: 60px 0px;
+}
+______________________________________
 .pad-g-10 {
     padding: 10px;
 }
@@ -367,8 +374,12 @@ main {
 footer {
     background-color: black;
     color: white;
+}
 
-    /* Debug */
-    min-height: 400px;
+.col-20 h3 {
+    padding-bottom: 1.2em;
+}
 
+.col-20 li {
+    padding-bottom: 1em;
 }
