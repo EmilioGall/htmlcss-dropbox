@@ -29,10 +29,10 @@ img {
 ul {
     list-style-type: none;
 }
+
 menu {
     list-style-type: none;
 }
-
 
 /* COMMON */
 
@@ -59,7 +59,8 @@ body {
 }
 
 .txt-h1 {
-    font-size: 2rem;
+    font-size: 4.5rem;
+    font-weight: bolder;
 }
 
 /* Colors */
@@ -167,6 +168,10 @@ body {
     max-width: 1200;
 }
 
+.m-auto {
+    margin: auto;
+}
+
 .rel {
     position: relative;
 }
@@ -231,11 +236,11 @@ body {
     padding-left: 1.5em;
 }
 
-.pad-v-30 {
+.pad-v-30- {
     padding: 30px 0px;
 }
 
-.pad-v-60 {
+.pad-v-60- {
     padding: 60px 0px;
 }
 ______________________________________
@@ -295,34 +300,6 @@ header {
 
 header nav {
     width: 100%;
-}
-
-.logo-sect {
-    width: 50%;
-
-    /* Debug */
-    border: 3px dashed white;
-    min-height: calc(var(--height-h) - 40px);
-}
-
-.logo-sect li {
-    margin-right: 10px;
-}
-
-.login-sect {
-    width: 50%;
-
-    /* Debug */
-    border: 3px dashed white;
-    min-height: calc(var(--height-h) - 40px);
-}
-
-.login-sect li {
-    margin-left: 10px;
-}
-
-.login {
-    text-decoration: none;
 }
 
 /* Debug Header */
