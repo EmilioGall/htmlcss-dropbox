@@ -179,6 +179,14 @@ body {
     text-align: center;
 }
 
+.p-g-3_ {
+    padding: 3%;
+}
+
+.p-g-6_ {
+    padding: 6%;
+}
+
 .p-b-0 {
     padding-bottom: 1em;
 }
@@ -239,9 +247,7 @@ body {
     margin-bottom: 60px;
 }
 ______________________________________
-.pad-g-10 {
-    padding: 10px;
-}
+
 
 .pad-g-5 {
     padding: 5px;
@@ -356,6 +362,9 @@ header {
     height: var(--height-h);
     padding: 0.5em;
     position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
     background-color: white;
 }
 
@@ -382,22 +391,30 @@ main {
     padding-left: 40px;
 }
 
-____________________________________
-.grey-box-h {
-
-    /* Debug */
-    background-color: grey;
-    min-height: 100px;
-    margin: 20px auto;
-}
-
-.square-h {
-    height: 50px;
-}
-
 .team {
     width: 50%;
     height: 50%;
+}
+
+.team img {
+    filter: invert(1);
+    width: 80%;
+}
+
+.logo-overlay {
+    bottom: 5%;
+    right: 5%;
+    width: 110%;
+    height: 110%;
+    background-color: rgba(162, 211, 155, 1);
+}
+
+.central-team {
+    overflow: auto;
+}
+
+.central-logo {
+    width: 50%;
 }
 
 .c-t-a {
