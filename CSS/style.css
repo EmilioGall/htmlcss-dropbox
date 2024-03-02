@@ -215,8 +215,8 @@ body {
     padding: 60px 0px;
 }
 
-.p-t-60- {
-    padding-top: 60px;
+.p-t-80- {
+    padding-top: 80px;
 }
 
 .p-b-60- {
@@ -233,6 +233,10 @@ body {
 
 .m-b-15 {
     margin-bottom: 1.5em;
+}
+
+.m-b-60- {
+    margin-bottom: 60px;
 }
 ______________________________________
 .pad-g-10 {
