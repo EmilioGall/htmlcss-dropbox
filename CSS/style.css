@@ -99,11 +99,10 @@ menu {
 
 .col-30- {
     width: calc((100% - 20px) / 3);
+    margin-bottom: 20px;
 
     /* Debug */
-    margin-bottom: 20px;
     min-height: 300px;
-    background-color: grey;
 }
 
 .col-40 {
@@ -155,18 +154,26 @@ body {
     text-decoration: none;
 }
 
-.b-clean {
+.btn-clean {
     border: none;
     outline: none;
 }
 
-.b-clean:hover {
+.btn-clean:hover {
     cursor: pointer;
 }
 
 .btn-b {
     color: white;
     background-color: var(--cyan-p);
+    padding: 0em 1em;
+    line-height: 2em;
+    text-align: center;
+}
+
+.btn-w {
+    background-color: white;
+    border: 1px solid black;
     padding: 0em 1em;
     line-height: 2em;
     text-align: center;
@@ -182,6 +189,10 @@ body {
 
 .p-b-h3 {
     padding-bottom: 1.2em;
+}
+
+.p-b-h2 {
+    padding-bottom: 0.8em;
 }
 
 .p-b-h1 {
@@ -207,6 +218,7 @@ body {
 .p-t-60- {
     padding-top: 60px;
 }
+
 .p-b-60- {
     padding-bottom: 60px;
 }
@@ -327,6 +339,12 @@ ______________________________________
     background-color: rgba(0, 0, 0, 1);
 }
 
+/* Borders Colors */
+
+.bo-b {
+    border: 1px solid black;
+}
+
 /* HEADER */
 
 header {
@@ -355,6 +373,12 @@ main {
     width: 650px;
 }
 
+.p-g-partner {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+____________________________________
 .grey-box-h {
 
     /* Debug */
