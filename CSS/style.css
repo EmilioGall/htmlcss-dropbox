@@ -173,7 +173,7 @@ body {
 
 .btn-w {
     background-color: white;
-    border: 1px solid black;
+    border: none;
     padding: 0em 1em;
     line-height: 2em;
     text-align: center;
@@ -415,12 +415,6 @@ main {
 
 .central-logo {
     width: 50%;
-}
-
-.c-t-a {
-
-    /* Debug */
-    min-height: 100px;
 }
 
 
