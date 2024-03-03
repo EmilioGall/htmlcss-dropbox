@@ -22,22 +22,22 @@
                 <!-- Logo List -->
                 <ul class="flex al-center txt-b">
 
-                    <li class="txt-0">
+                    <li class="flex al-center txt-0">
                         <a class="a-clean txt-0 p-r-15" href="">
                             <img src="./img/logo-small.png" alt="logo Dropbox">
                         </a>
                     </li>
 
-                    <li class="txt-0">
-                        <a class="a-clean txt-0 p-r-15" href="">Perché Dropbox</a>
+                    <li class="flex al-center btn-press">
+                        <a class="a-clean txt-0 p-h-8" href="">Perché Dropbox</a>
                     </li>
 
-                    <li class="txt-0">
-                        <a class="a-clean txt-0 p-r-15" href="">Funzioni</a>
+                    <li class="flex al-center btn-press">
+                        <a class="a-clean txt-0 p-h-8" href="">Funzioni</a>
                     </li>
 
-                    <li class="txt-0">
-                        <a class="a-clean txt-0 p-r-15" href="">Piani e Prezzi</a>
+                    <li class="flex al-center btn-press">
+                        <a class="a-clean txt-0 p-h-8" href="">Piani e Prezzi</a>
                     </li>
 
                 </ul>
@@ -46,19 +46,19 @@
                 <!-- LogIn List -->
                 <ul class="flex al-center j-end txt-b">
 
-                    <li>
-                        <a class="a-clean txt-0 p-l-15" href="">Supporto</a>
+                    <li class="flex al-center btn-press">
+                        <a class="a-clean txt-0 p-h-8" href="">Supporto</a>
                     </li>
 
-                    <li>
-                        <a class="a-clean txt-0 p-l-15" href="">Contatta ufficio vendite</a>
+                    <li class="flex al-center btn-press">
+                        <a class="a-clean txt-0 p-h-8" href="">Contatta ufficio vendite</a>
                     </li>
 
-                    <li>
-                        <a class="a-clean txt-0 p-l-15" href="">Accedi</a>
+                    <li class="flex al-center btn-press">
+                        <a class="a-clean txt-0 p-h-8" href="">Accedi</a>
                     </li>
 
-                    <li>
+                    <li class="flex al-center">
                         <button class="btn-clean txt-0 m-l-15 btn-b" href="">Inizia</button>
                     </li>
 
@@ -95,7 +95,7 @@
 
                             <p class="txt-1 p-b-60-">Annulla in qualsiasi momento.</p>
 
-                            <i class="fa-solid fa-arrow-down"></i>
+                            <i class="fa-solid fa-arrow-down p-v-10-"></i>
 
                         </div>
 
@@ -115,15 +115,13 @@
                 <h2 class="txt-h2 p-b-h2 p-t-60-">Trova il piano business che fa per te</h2>
 
                 <!-- Radio button selection -->
-                <div class="flex p-b-1">
-                    <div>
-                        <input type="radio"> <span>Fatturazione mensile</span>
-                    </div>
+                <form class="flex p-b-0">
 
-                    <div class="p-l-15">
-                        <input type="radio"> <span>Fatturazione annuale</span>
-                    </div>
-                </div>
+                    <input checked="checked" name="fatturazione" type="radio"> <span class="p-h-4">Fatturazione mensile</span>
+
+                    <input checked="checked" name="fatturazione" class="m-l-15" type="radio"> <span class="p-h-4">Fatturazione annuale</span>
+
+                </form>
                 <!-- /Radio button selection -->
 
                 <!-- Plans selection -->
@@ -570,7 +568,7 @@
             <!-- /Teams Section -->
 
             <!--  CTA Section -->
-            <section class="bg-lc p-v-20">
+            <section class="bg-lc">
 
                 <div class="container m-auto flex p-v-60- j-between">
 
@@ -594,7 +592,7 @@
             <!-- /CTA Section -->
  
             <!-- FAQ Section -->
-            <section class="p-v-20">
+            <section>
 
                 <div class="container m-auto p-v-60-">
 
@@ -606,35 +604,71 @@
 
                     <hr class="m-b-15">
 
-                    <div class="flex j-between">
-                        
-                        <p class="txt-2 p-b-1">Qual è la differenza tra DropboxBusiness Standard e Dropbox Business Advanced</p>
+                    <!-- FAQ 1 -->
+                    <div>
 
-                        <i class="fa-solid fa-chevron-down txt-2 p-r-15"></i>
+                        <div class="flex j-between container question">
+                            
+                            <p class="txt-2 p-b-1">Qual è la differenza tra DropboxBusiness Standard e Dropbox Business Advanced</p>
 
-                    </div>
+                            <i class="fa-solid fa-chevron-down txt-2 p-r-15 cursor"></i>
 
-                    <hr class="m-b-15">
+                        </div>
 
-                    <div class="flex j-between">
-                        
-                        <p class="txt-2 p-b-1">Qual è la differenza tra DropboxBusiness Standard e Dropbox Business Advanced</p>
+                        <div class="answer">
 
-                        <i class="fa-solid fa-chevron-down txt-2 p-r-15"></i>
+                            <p class="txt-1 p-b-1">La risposta alla domanda superiore che viene fuori solo col passaggio del cursore</p>
 
-                    </div>
+                        </div>
 
-                    <hr class="m-b-15">
-
-                    <div class="flex j-between">
-                        
-                        <p class="txt-2 p-b-1">Qual è la differenza tra DropboxBusiness Standard e Dropbox Business Advanced</p>
-
-                        <i class="fa-solid fa-chevron-down txt-2 p-r-15"></i>
+                        <hr class="m-b-15">
 
                     </div>
+                    <!-- /FAQ 1 -->
 
-                    <hr class="m-b-15">
+                    <!-- FAQ 2 -->
+                    <div>
+
+                        <div class="flex j-between container question">
+                            
+                            <p class="txt-2 p-b-1">Qual è la differenza tra DropboxBusiness Standard e Dropbox Business Advanced</p>
+
+                            <i class="fa-solid fa-chevron-down txt-2 p-r-15 cursor"></i>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p class="txt-1 p-b-1">La risposta alla domanda superiore che viene fuori solo col passaggio del cursore</p>
+
+                        </div>
+
+                        <hr class="m-b-15">
+
+                    </div>
+                    <!-- /FAQ 2 -->
+
+                    <!-- FAQ 3 -->
+                    <div>
+
+                        <div class="flex j-between container question">
+                            
+                            <p class="txt-2 p-b-1">Qual è la differenza tra DropboxBusiness Standard e Dropbox Business Advanced</p>
+
+                            <i class="fa-solid fa-chevron-down txt-2 p-r-15 cursor"></i>
+
+                        </div>
+
+                        <div class="answer">
+
+                            <p class="txt-1 p-b-1">La risposta alla domanda superiore che viene fuori solo col passaggio del cursore</p>
+
+                        </div>
+
+                        <hr class="m-b-15">
+
+                    </div>
+                    <!-- /FAQ 3 -->
 
                 </div>
                 

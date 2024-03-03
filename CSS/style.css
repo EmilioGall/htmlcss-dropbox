@@ -98,7 +98,7 @@ menu {
 }
 
 .col-30- {
-    width: calc((100% - 20px) / 3);
+    width: calc((100% - 40px) / 3);
     margin-bottom: 20px;
 }
 
@@ -169,10 +169,6 @@ body {
     outline: none;
 }
 
-.btn-clean:hover {
-    cursor: pointer;
-}
-
 .btn-b {
     color: white;
     background-color: var(--cyan-p);
@@ -214,6 +210,14 @@ body {
 
 .p-b-h1 {
     padding-bottom: 0.6em;
+}
+
+.p-h-4 {
+    padding: 0em .4em;
+}
+
+.p-h-8 {
+    padding: 0em .8em;
 }
 
 .p-r-15 {
@@ -360,6 +364,10 @@ header nav {
     width: 100%;
 }
 
+header li {
+    height: var(--height-h);
+}
+
 .col-40 i {
     font-size: 3rem;
 }
@@ -373,8 +381,6 @@ main {
 .jumbo-img {
     width: 650px;
 }
-
-
 
 .p-g-partner {
     padding-top: 40px;
@@ -407,10 +413,37 @@ main {
     width: 50%;
 }
 
-
 /* FOOTER */
 
 footer {
     background-color: black;
     color: white;
 }
+
+/* EFFECTS */
+
+.btn-clean:hover {
+    cursor: pointer;
+}
+
+.btn-press:hover {
+    font-weight: 600;
+    border-bottom: 3px solid var(--cyan-p);
+}
+
+.btn-b:hover, .btn-w:hover {
+    filter: brightness(120%);
+}
+
+.question {
+    position: absolute;
+    background-color: white;
+}
+.answer {
+    z-index: -1;
+}
+
+.question:hover {
+    position: relative;
+}
+
