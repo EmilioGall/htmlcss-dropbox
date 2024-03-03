@@ -110,6 +110,10 @@ menu {
     width: 60%;
 }
 
+.col-70 {
+    width: 70%;
+}
+
 /* Typography */
 
 body {
@@ -220,8 +224,16 @@ body {
     padding-left: 1.5em;
 }
 
+.p-g-10- {
+    padding: 20px;
+}
+
 .p-r-10- {
-    padding-right: 10px;
+    padding-right: 8px;
+}
+
+.p-v-10- {
+    padding: 10px 0px;
 }
 
 .p-v-30- {
@@ -361,6 +373,8 @@ main {
 .jumbo-img {
     width: 650px;
 }
+
+
 
 .p-g-partner {
     padding-top: 40px;
