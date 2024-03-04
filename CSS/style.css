@@ -352,7 +352,7 @@ body {
 header {
     width: 100%;
     height: var(--height-h);
-    padding: 0.5em;
+    padding: 0.5em 1em;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -413,6 +413,29 @@ main {
     width: 50%;
 }
 
+/* Radio */
+
+form input[type="radio"] {
+    /* position: absolute; */
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+form .checkmark {
+    position: absolute;
+    top: calc(line-height/2);
+    left: 0;
+    height: .8em;
+    width: .8em;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked + .checkmark {
+    border: .2em solid var(--cyan-p);
+}
+
 /* FOOTER */
 
 footer {
@@ -431,8 +454,18 @@ footer {
     border-bottom: 3px solid var(--cyan-p);
 }
 
-.btn-b:hover, .btn-w:hover {
-    filter: brightness(120%);
+.btn-b:hover {
+    /* filter: brightness(140%); */
+    opacity: 80%;
+    /* filter: drop-shadow(5px 5px 2px gray); */
+}
+
+.btn-w:hover {
+    background-color: var(--cyan-p);
+    color: white;
+    border: none;
+    /* filter: drop-shadow(5px 5px 2px gray); */
+    transition: 2s;
 }
 
 .question {
