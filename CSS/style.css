@@ -378,6 +378,10 @@ main {
     padding-top: var(--height-h);
 }
 
+.hero-col {
+    padding-top: 50px;
+}
+
 .jumbo-img {
     width: 600px;
 }
