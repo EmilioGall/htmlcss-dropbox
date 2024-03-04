@@ -397,11 +397,11 @@ main {
     width: 80%;
 }
 
-.logo-overlay {
-    bottom: 5%;
-    right: 5%;
-    width: 110%;
-    height: 110%;
+.team.bg-lgr::before {
+    content: " ";
+    width: 90%;
+    height: 90%;
+    position: absolute;
     background-color: rgba(162, 211, 155, 1);
 }
 
