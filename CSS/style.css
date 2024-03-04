@@ -470,17 +470,17 @@ footer {
 /* FAQ */
 
 .question {
-    position: absolute;
-    background-color: white;
+    position: relative;
 }
 
 .answer {
-    position: relative;
-    z-index: -1;
+    position: absolute;
+    opacity: 0;
 }
 
-.question:hover {
+.question:hover + .answer {
     position: relative;
+    opacity: 100%;
 }
 
 .question:hover .pin {
