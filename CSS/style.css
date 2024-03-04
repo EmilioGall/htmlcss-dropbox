@@ -379,7 +379,7 @@ main {
 }
 
 .jumbo-img {
-    width: 650px;
+    width: 600px;
 }
 
 .p-g-partner {
@@ -491,4 +491,36 @@ footer {
 
 .team:hover {
     transform: scale(1.1);
+}
+
+/* Hero Arrow */
+
+.fa-arrow-down {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+}
+
+.hero-col:hover .fa-arrow-down {
+    animation-name: up-down;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes up-down {
+
+    0% {
+        top: -40px;
+        left: 0px;
+    }
+
+    50% {
+        top: -30px;
+        left: 0px;
+    }
+
+    100% {
+        top: -40px;
+        left: 0px;
+    }
 }
