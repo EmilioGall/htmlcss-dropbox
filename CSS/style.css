@@ -464,15 +464,15 @@ footer {
     background-color: var(--cyan-p);
     color: white;
     border: none;
-    /* filter: drop-shadow(5px 5px 2px gray); */
-    transition: 2s;
 }
 
 .question {
     position: absolute;
     background-color: white;
 }
+
 .answer {
+    position: relative;
     z-index: -1;
 }
 
@@ -480,3 +480,6 @@ footer {
     position: relative;
 }
 
+.question:hover .pin {
+    opacity: 0;
+}
