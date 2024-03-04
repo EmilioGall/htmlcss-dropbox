@@ -445,6 +445,8 @@ footer {
 
 /* EFFECTS */
 
+/* Btn */
+
 .btn-clean:hover {
     cursor: pointer;
 }
@@ -457,7 +459,6 @@ footer {
 .btn-b:hover {
     /* filter: brightness(140%); */
     opacity: 80%;
-    /* filter: drop-shadow(5px 5px 2px gray); */
 }
 
 .btn-w:hover {
@@ -465,6 +466,8 @@ footer {
     color: white;
     border: none;
 }
+
+/* FAQ */
 
 .question {
     position: absolute;
@@ -482,4 +485,10 @@ footer {
 
 .question:hover .pin {
     opacity: 0;
+}
+
+/* Teams */
+
+.team:hover {
+    transform: scale(1.1);
 }
